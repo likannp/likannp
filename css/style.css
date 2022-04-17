@@ -1,0 +1,73 @@
+/* REGRAS PARA PONTUAÇÃO */
+@charset "UTF-8"; 
+
+@font-face {
+  font-family: 'Quattrocento Sans';
+  src: url('fonts/QuattrocentoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 1.1em;
+}
+
+i {
+  padding: 0.5em;
+  font-size: 2em;
+}
+
+div {
+  display: inline-table;
+  width: 22.8em;
+  height: 5em;
+}
+
+main {
+  text-align: center;
+}
+
+span {
+  padding: 0.5em;
+  font-size: 0.8em;
+  border-radius: 1em;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.ruby {
+  background-color: #DC3545;
+}
+.html5 {
+  background-color: #FF7C33;
+}
+.css3 {
+  background-color: #33C2FF;
+}
+.javascript {
+  background-color: #E5D00B;
+}
+
+p {
+  text-align: justify;
+  text-align: center;
+}
+
+img {
+  box-shadow: 5px 5px 5px Gray;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  img {
+    display: none;
+  }
+}
