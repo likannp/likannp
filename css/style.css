@@ -22,10 +22,11 @@ i {
   font-size: 2em;
 }
 
-div {
-  display: inline-table;
-  width: 22.8em;
-  height: 5em;
+section {
+  float: left;
+  width: 33.3%;
+  /* display: inline-block; */
+  /* margin: 0.3em; */
 }
 
 main {
@@ -38,6 +39,24 @@ span {
   border-radius: 1em;
   color: #FFFFFF;
   font-weight: bold;
+}
+
+.test {
+  display: inline-block;
+}
+
+.text {
+  /* width: 3%; */
+  margin: 0.8em 10%;
+}
+
+.bio {
+  font-size: 1.3em;
+  margin: 5em 20% 0;
+}
+
+.icons {
+  margin: 3em 0 3em;
 }
 
 .ruby {
@@ -53,10 +72,10 @@ span {
   background-color: #E5D00B;
 }
 
-p {
+/* p {
   text-align: justify;
   text-align: center;
-}
+} */
 
 img {
   box-shadow: 5px 5px 5px Gray;
@@ -69,5 +88,26 @@ h2 {
 @media (max-width: 500px) {
   img {
     display: none;
+  }
+  section {
+    float: left;
+    width: 100%;
+  }
+  span {
+    font-size: 0.6em;
+  }
+  .bio {
+    font-size: 1.1em;
+    margin: 2.2em auto;
+  }
+  .icons {
+    margin: 1em 0 1em;
+  }
+}
+
+@media (max-width: 1200px) {
+  section {
+    float: left;
+    width: 100%;
   }
 }
