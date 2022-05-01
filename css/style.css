@@ -15,6 +15,7 @@ a {
 body {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 1.1em;
+  text-align: center
 }
 
 i {
@@ -22,15 +23,11 @@ i {
   font-size: 2em;
 }
 
-section {
+article {
   float: left;
   width: 33.3%;
   /* display: inline-block; */
   /* margin: 0.3em; */
-}
-
-main {
-  text-align: center;
 }
 
 span {
@@ -81,15 +78,11 @@ img {
   box-shadow: 5px 5px 5px Gray;
 }
 
-h2 {
-  text-align: center;
-}
-
 @media (max-width: 500px) {
   img {
     display: none;
   }
-  section {
+  article {
     float: left;
     width: 100%;
   }
@@ -106,7 +99,7 @@ h2 {
 }
 
 @media (max-width: 1200px) {
-  section {
+  article {
     float: left;
     width: 100%;
   }
