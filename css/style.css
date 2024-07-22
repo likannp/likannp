@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 body {
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-size: 1.4em;
+  /* font-family: 'Quattrocento Sans', sans-serif; */
+  font-size: 1.3em;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -13,17 +13,18 @@ header {
   padding: 1em;
 }
 
-h1 {
-  margin: 0;
-}
-.website-in-development{
+/* h1 {
+  margin-top: 2%;
+} */
+
+.website-in-development {
   text-align: center;
   margin: 2em auto;
 }
 
 .bio {
-  margin: 2em auto;
-  max-width: 800px;
+  margin: 1.8em auto;
+  max-width: 50%;
 }
 
 .icons {
@@ -46,11 +47,6 @@ h1 {
   margin-bottom: 1.2em;
 }
 
-.projects .project img {
-  max-width: 100%;
-  height: auto;
-}
-
 .projects .project h3 {
   margin: 0.5em 0;
 }
@@ -65,7 +61,7 @@ h1 {
 
 .projects .project .technologies span {
   display: inline-block;
-  padding: 0.5em;
+  padding: 0.4em;
   border-radius: 1em;
   margin-right: 0.5em;
 }
@@ -81,6 +77,43 @@ h1 {
 .projects .project .technologies span.css3 {
   background-color: #33C2FF;
 }
+.projects .project .technologies span.javascript {
+  background-color: #fbfe50;
+}
+
+.projects {
+  margin: 2em auto;
+  max-width: 800px;
+}
+
+.projects .project {
+  margin-bottom: 1.2em;
+}
+
+.projects .project h3 {
+  margin: 0.5em 0;
+}
+
+.projects .project-content {
+  display: flex;
+  align-items: center;
+}
+
+.projects .project-content p {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.projects .project-content img {
+  max-width: 15%;
+  height: auto;
+  margin-left: 1em;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projects .project-content img:hover {
+  transform: scale(6);
+}
 
 .education,
 .certificates,
@@ -95,11 +128,8 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  body{
-    margin: 01em;
+  body {
+    margin: 0 1em;
     font-size: 1.2em;
   }
 }
-
-
-
