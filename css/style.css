@@ -88,7 +88,6 @@ h1 {
 .education,
 .certificates,
 .courses {
-  text-align: center;
   margin: 2em auto;
   max-width: 800px;
 }
