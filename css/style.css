@@ -4,14 +4,11 @@ body {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 1.4em;
   line-height: 1.6;
-  /* text-align: center;
-  align-items: center; */
   margin: 0;
   padding: 0;
 }
 
 header {
-  /* background-color: #f5f5f5; */
   text-align: center;
   padding: 1em;
 }
@@ -93,7 +90,6 @@ h1 {
 }
 
 footer {
-  /* background-color: #f5f5f5; */
   text-align: center;
   padding: 1em;
 }
