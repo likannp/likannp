@@ -44,7 +44,7 @@ nav.top-menu ul li a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2em 0;
+  margin: 2em 0 4em;
 }
 
 .icons a {
