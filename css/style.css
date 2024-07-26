@@ -34,7 +34,7 @@ nav.top-menu ul li a:focus {
   background-color: #ddd;
 }
 
-.bio {
+#bio {
   margin: 1.2em auto;
   max-width: 50%;
   text-align: justify;
@@ -128,9 +128,9 @@ nav.top-menu ul li a:focus {
   transform: scale(6);
 }
 
-.education,
-.certificates,
-.courses {
+#education,
+#certificates,
+#courses {
   margin: 2em auto;
   max-width: 800px;
 }
@@ -160,7 +160,7 @@ footer {
     margin: 0 1em;
     font-size: 1.2em;
   }
-  .bio{
+  #bio{
     font-size: 0.9em;
     margin: 0.7em auto;
     max-width: 82%;
