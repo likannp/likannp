@@ -118,7 +118,7 @@ nav.top-menu ul li a:focus {
 }
 
 .projects .project-content img {
-  max-width: 15%;
+  max-width: 13%;
   height: auto;
   margin-left: 1em;
   transition: transform 0.3s ease-in-out;
@@ -144,11 +144,9 @@ footer {
   nav.top-menu {
     display: none;
   }
-
-  .bio {
-    display: none;
+  .bio{
+    font-size: 1em;
   }
-
   body {
     font-size: 1.1em;
     margin: 0;
