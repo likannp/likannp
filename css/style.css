@@ -74,10 +74,12 @@ nav.top-menu ul li a:focus {
 }
 
 .projects .project .technologies span {
+  font-size: 14px;
   display: inline-block;
   padding: 0.4em;
   border-radius: 1em;
   margin-right: 0.5em;
+  font-weight: bold;
 }
 
 .projects .project .technologies span.ruby {
@@ -93,6 +95,9 @@ nav.top-menu ul li a:focus {
 }
 .projects .project .technologies span.javascript {
   background-color: #fbfe50;
+}
+.projects .project .technologies span.java {
+  background-color: #fbbe55;
 }
 
 .projects {
