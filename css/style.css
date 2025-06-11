@@ -1,10 +1,30 @@
 @charset "UTF-8";
 
+.fontEmbedCode {
+  font-family: "Edu QLD Hand", cursive;
+  font-optical-sizing: auto;
+}
+
 body {
   font-size: 1.3em;
   line-height: 1.6;
   margin: 0;
   padding: 0;
+}
+.star-index{
+  width: 3rem;
+  height: auto;
+  color: #fbbe55;
+}
+.all-About-Me{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Edu QLD Hand", cursive;
+  font-optical-sizing: auto;
+}
+.pensamentos{
+  width: 15rem;
 }
 
 header {
@@ -145,6 +165,9 @@ footer {
   text-align: center;
   padding: 1em;
 }
+.mulher{
+  width: 15rem;
+}
 
 @media (max-width: 650px) {
   nav.top-menu {
@@ -156,6 +179,14 @@ footer {
   body {
     font-size: 1.1em;
     margin: 0;
+  }
+  .mulher, .pensamentos{
+    width: 10rem;
+  }
+}
+@media (max-widht: 480px){
+  .mulher,.pensamentos{
+    width: 0.5rem;
   }
 }
 
